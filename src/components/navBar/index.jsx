@@ -28,7 +28,7 @@ export  const NavBar = () => {
           </ul>
 
           <button className="menu-btn" onClick={() =>{}}>
-            <span class={"material-symbol-outlined"}
+            <span className={"material-symbol-outlined"}
                   style={{fontSize:"1.8rem"}}>
             menu
             </span>
