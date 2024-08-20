@@ -26,6 +26,14 @@ export  const NavBar = () => {
               Hire Me  
             </button>
           </ul>
+
+          <button className="menu-btn" onClick={() =>{}}>
+            <span class={"material-symbol-outlined"}
+                  style={{fontSize:"1.8rem"}}>
+            menu
+            </span>
+          </button>
+
         </div>
       </nav>
     </>
