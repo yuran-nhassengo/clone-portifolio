@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './navBar.css'
+import { MobileNav } from './mobileNav/mobileNav';
 
 export  const NavBar = () => {
+
+    const [openMenu,setOpenMenu] = useState(false);
+
+    const toggleMenu = () =>{
+      setOpenMenu(!openMenu);
+    }
+
   return (
     <>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
       <nav className="nav-wrapper">
         <div className="nav-content">
           <img src="" alt="imagem" />
@@ -27,10 +36,11 @@ export  const NavBar = () => {
             </button>
           </ul>
 
-          <button className="menu-btn" onClick={() =>{}}>
+          <button className="menu-btn" onClick={toggleMenu}>
             <span className={"material-symbol-outlined"}
                   style={{fontSize:"1.8rem"}}>
-            menu
+                  
+                  {openMenu ? "close":"menu"}
             </span>
           </button>
 
