@@ -1,6 +1,8 @@
 import React from 'react'
 import './contactMe.css'
 import { ContactInfoCard } from './contactInfoCard/contactInfoCard'
+import frontendImage from '../../../public/teste2.png';
+
 
 export const ContactMe = () => {
   return (
@@ -11,12 +13,12 @@ export const ContactMe = () => {
             <div style={{flex:1}}>
                 <ContactInfoCard
                 
-                    iconUrl="/l/temp"
+                    iconUrl={frontendImage}
                     text="yurannhassengo@gmail.com"
                 />
                 <ContactInfoCard
                
-                    iconUrl="/assets"
+                    iconUrl={frontendImage}
                     text="https://github.com/yuran-nhassengo"
                 />
             </div>
@@ -25,5 +27,8 @@ export const ContactMe = () => {
     </section>
   )
 }
+
+
+
 
 
