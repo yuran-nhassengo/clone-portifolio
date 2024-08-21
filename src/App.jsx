@@ -1,5 +1,6 @@
 
 import './App.css'
+import { ContactMe } from './components/contactMe/contactMe'
 import { Hero } from './components/hero/hero'
 
 import {NavBar} from './components/navBar'
@@ -15,6 +16,7 @@ function App() {
         <Hero/>
         <Skills/>
         <WorkExperience/>
+        <ContactMe/>
       </div>
     </>
   )
