@@ -1,6 +1,7 @@
 
 import './App.css'
 import { ContactMe } from './components/contactMe/contactMe'
+import { Footer } from './components/footer/footer'
 import { Hero } from './components/hero/hero'
 
 import {NavBar} from './components/navBar'
@@ -17,6 +18,7 @@ function App() {
         <Skills/>
         <WorkExperience/>
         <ContactMe/>
+         <Footer/>
       </div>
     </>
   )
