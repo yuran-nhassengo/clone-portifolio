@@ -2,6 +2,7 @@ import React from 'react'
 import './contactMe.css'
 import { ContactInfoCard } from './contactInfoCard/contactInfoCard'
 import frontendImage from '../../../public/teste2.png';
+import { ContactForm } from './contactForm/contactForm';
 
 
 export const ContactMe = () => {
@@ -22,7 +23,9 @@ export const ContactMe = () => {
                     text="https://github.com/yuran-nhassengo"
                 />
             </div>
-            <div style={{flex:1}}></div>
+            <div style={{flex:1}}>
+                <ContactForm/>
+            </div>
         </div>
     </section>
   )
