@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-import { SKILLS } from '../utils/data'
+import { SKILLS } from '../../utils/data'
 import { SkillCard } from './skillCard/skillCard'
 export const Skills = () => {
   return (

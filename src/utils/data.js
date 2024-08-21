@@ -1,8 +1,10 @@
+import frontendImage from '../../public/teste2.png';
+
 export const SKILLS =[
 
     {
         title:"Frontend",
-        icons:"",
+        icons:frontendImage,
         skills: [
             {skill:"HTML5",percentage:"80%"},
             {skill:"CSS3 (Sass/SCSS",percentage:"90%"},
